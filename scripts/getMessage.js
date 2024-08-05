@@ -26,3 +26,10 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+EOL 
+echo "getMessage.js script created."
+
+echo "Running getMessage.js..."
+npx hardhat run scripts/getMessage.js --network swisstronik
+echo "Message retrieved."
+echo "Done! Subscribe: https://t.me/GaCryptOfficial"
